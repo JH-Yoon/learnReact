@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import './sass/materialize.scss';
 import './App.css';
 
 function App() {
