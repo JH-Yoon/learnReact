@@ -1,14 +1,18 @@
-import React from 'react';
-import './sass/materialize.scss';
-import './App.css';
+import React, { Component } from 'react';
+import ChildProperty from './03/ChildProperty';
 
-function App() {
-  return (
-    <div>
-      <img src="http://www.easyspub.co.kr/images/logo_footer.png" />
-      <div>Hello!</div>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <ChildProperty>
+          <div>
+            <span>Child Node</span>
+          </div>
+        </ChildProperty>
+      </div>
+    );
+  }
 }
 
 export default App;
